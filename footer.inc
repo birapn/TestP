@@ -1,3 +1,5 @@
+<?php requere('parametros.php');?>
+
 <TABLE cellSpacing=0 cellPadding=0 width=530 bgColor=f0f0f0 border=0 align=center>
 <TBODY><TR><TD vAlign=center align=middle background="" height=100>
 <FONT face=verdana color=gray size=1>
@@ -9,5 +11,8 @@
 </FONT>
 </TD></TR></TBODY></TABLE>
 <br><font face=verdana size=1><center><?php echo date('Y'); ?> - Todos os Direitos Reservados a Associação Brasileira de Dianética</center></font>
+<div class="footer">
+<?php echo $empresa; ?>
+</div>
 </body>
 </html>

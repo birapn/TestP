@@ -1,4 +1,5 @@
-<?php
+5<?php
+const m = 'undefined';
 //1						
 	if ($r1	=='+'){$a1 = 2;}
 	elseif ($r1 ==m OR $r1==''){$a1 = 4; $mc = 1;}
